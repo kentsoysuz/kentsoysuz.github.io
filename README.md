@@ -1,46 +1,117 @@
-# Hugo template for Netlify CMS with Netlify Identity
+<h1 align=center>Liva Hugo | <a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fliva%2F">Page Speed (77%)</a></h1>
 
-This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
+<p align=center>
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.58.0" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.58.0&color=f00&logo=hugo" />
+  </a>
 
-## Getting started
+  <a href="https://github.com/gethugothemes/liva-hugo/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/gethugothemes/liva-hugo" alt="license"></a>
 
-Use our deploy button to get your own copy of the repository. 
+  <img src="https://img.shields.io/github/languages/code-size/gethugothemes/liva-hugo" alt="code size">
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
+  <a href="https://github.com/gethugothemes/liva-hugo/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/gethugothemes/liva-hugo" alt="contributors"></a>
 
-This will setup everything needed for running the CMS:
+  <a href="https://twitter.com/intent/follow?screen_name=gethugothemes">
+    <img src="https://img.shields.io/twitter/follow/gethugothemes?style=social&logo=twitter"
+      alt="follow on Twitter"></a>
+</p>
 
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
+---
 
-Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/37659754/67829978-3984f800-fb03-11e9-82d2-a38490c6ceaf.gif" width="100%" alt="Liva Blog template by themefisher">
+</p>
 
-Now you're all set, and you can start editing content!
+---
+## Features
+- Google analytics  support
+- CSS and JS bundle with hugo pipe
+- Netlify settings predefine
+- Contact form Support
+- Search by fuse.js 
+- GDPR consent enable
+- Google page speed optimized ( 77% )
+- Open graph meta tag
+- Twitter card meta tag
 
-## Local Development
+## Local development
 
-Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
+```bash
+# clone the repository
+git clone git@github.com:gethugothemes/liva-hugo.git
 
-Then start the development server with `yarn start` or `npm start`.
+# cd in the project directory
+$ cd liva-hugo/exampleSite/
 
-## Layouts
-
-The template is based on small, content-agnostic partials that can be mixed and matched. The pre-built pages showcase just a few of the possible combinations. Refer to the `site/layouts/partials` folder for all available partials.
-
-Use Hugo’s `dict` functionality to feed content into partials and avoid repeating yourself and creating discrepancies.
-
-## CSS
-
-The template uses a custom fork of Tachyons and PostCSS with cssnext and cssnano. To customize the template for your brand, refer to `src/css/imports/_variables.css` where most of the important global variables like colors and spacing are stored.
-
-## SVG
-
-All SVG icons stored in `site/static/img/icons` are automatically optimized with SVGO (gulp-svgmin) and concatenated into a single SVG sprite stored as a a partial called `svg.html`. Make sure you use consistent icons in terms of viewport and art direction for optimal results. Refer to an SVG via the `<use>` tag like so:
-
+# Start local dev server
+$ hugo server --themesDir ../..
 ```
-<svg width="16px" height="16px" class="db">
-  <use xlink:href="#SVG-ID"></use>
-</svg>
-```
+Or Check out [Full Documentation](https://docs.gethugothemes.com/liva/?ref=github).
+
+## Content Management System
+
+[![import to
+Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=gethugothemes/liva-hugo&engine=hugo&version=0.87.0)
+
+This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your
+repository in Forestry](https://app.forestry.io/quick-start?repo=gethugothemes/liva-hugo&engine=hugo&version=0.87.0) and
+you will be able to edit and preview your site ✨.
+
+Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
+
+## Deployment and hosting
+
+[![Deploy to
+Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gethugothemes/liva-hugo)
+
+Follow the steps.
+
+## Prefer a video? (Hugo + Netlify + Forestry)
+Build your website with **Liva Hugo** theme by following these easy steps (No Coding Required!)
+[Video Tutorial](https://youtu.be/ResipmZmpDU).
+
+<!-- reporting issue -->
+## Reporting Issues
+We use GitHub Issues as the official bug tracker for the liva Template. Please Search [existing
+issues](https://github.com/gethugothemes/liva-hugo/issues). Someone may have already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new
+issue](https://github.com/gethugothemes/liva-hugo/issues).
+
+<!-- ## Liva Hugo theme Powered Websites
+
+
+View all the websites powered by Liva Hugo theme [here](https://github.com/gethugothemes/liva-hugo/wiki/All-liva-hugo-theme-Powered-Websites). Want to submit your own website powered by Liva Hugo theme? You can submit it [here](https://github.com/gethugothemes/liva-hugo/discussions/46). -->
+
+<!-- licence -->
+## License
+Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
+[Gethugothemes](https://gethugothemes.com)
+
+**Code License:** Released under the [MIT](https://github.com/gethugothemes/liva-hugo/blob/master/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their licenses. We don't have permission to
+share those images.
+
+<!-- resources -->
+## Special Thanks
+- [Bootstrap](https://getbootstrap.com)
+- [Jquery](https://jquery.com)
+- [Themify Icons](https://themify.me/themify-icons)
+- [Slick Slider](https://kenwheeler.github.io/slick)
+- [Venobox](https://veno.es/venobox)
+- [Fuse Js](https://fusejs.io/)
+- [Google Fonts](https://fonts.google.com/)
+- [All Contributors](https://github.com/gethugothemes/liva-hugo/graphs/contributors)
+
+
+## Hire Us
+We are available for **Hiring** for your next HUGO project. Please, check our
+[services](https://gethugothemes.com/services/?ref=github)
+
+
+## Premium Themes By Us
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![nebula](https://demo.gethugothemes.com/thumbnails/nebula.webp)](https://gethugothemes.com/products/nebula/) | [![eventre](https://demo.gethugothemes.com/thumbnails/eventre.webp)](https://gethugothemes.com/products/eventre/) |
+|:---:|:---:|:---:|
+| **Premium Theme Bundle (40+)** | **Nebula**  | **Eventre**  |
